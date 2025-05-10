@@ -1,7 +1,7 @@
 main{
     .sec2{
         margin-top: 1rem;
-        background-color: pink;
+        // background-color: pink;
         margin-left: 1.5rem;
         margin-right: 1.5rem;
         display: flex;
@@ -51,6 +51,7 @@ main{
             flex-direction: row;
             margin-left: 3rem;
             margin-right: 3rem;
+            margin-top: 3rem;
             .image-2{
                 width: 32%;
             }

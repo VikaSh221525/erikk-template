@@ -1,6 +1,5 @@
 main .sec2 {
   margin-top: 1rem;
-  background-color: pink;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   display: flex;
@@ -45,6 +44,7 @@ main .sec2 .sec-2-content .text p {
     flex-direction: row;
     margin-left: 3rem;
     margin-right: 3rem;
+    margin-top: 3rem;
   }
   main .sec2 .image-2 {
     width: 32%;
@@ -69,6 +69,79 @@ main .sec2 .sec-2-content .text p {
     width: 70%;
   }
 }
+.sec3 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.sec3 .section-3-content h1 {
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+.sec3 .section-3-content .sec-3-service {
+  display: flex;
+  flex-direction: column;
+}
+.sec3 .section-3-content .sec-3-service .servicelist {
+  margin-top: 2rem;
+}
+.sec3 .section-3-content .sec-3-service .servicelist .line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 0.8rem;
+}
+.sec3 .section-3-content .sec-3-service .servicelist .brand h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+.sec3 .section-3-content .sec-3-service .servicelist .brand p {
+  font-size: large;
+  opacity: 0.75;
+  letter-spacing: 0.2rem;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+.sec3 .section-3-content .sec-3-service .servicelist .brand a {
+  text-decoration: none;
+  color: black;
+}
+.sec3 .image-3 {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.sec3 .image-3 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 900px) {
+  .sec3 {
+    flex-direction: row;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 4rem;
+  }
+  .sec3 .section-3-content {
+    width: 50%;
+    margin-top: 1rem;
+  }
+  .sec3 .section-3-content h1 {
+    font-size: 6rem;
+    font-weight: 400;
+  }
+  .sec3 .image-3 {
+    width: 50%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -90,12 +163,10 @@ header {
 main {
   width: 100%;
   margin-top: 1rem;
-  background-color: aliceblue;
 }
 main .herotext {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  background-color: wheat;
 }
 main .herotext img {
   width: 100%;

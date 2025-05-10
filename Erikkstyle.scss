@@ -1,4 +1,5 @@
 @import "Section2";
+@import "Section3";
 *{
     margin: 0;
     padding: 0;
@@ -17,12 +18,12 @@ header{
 main{
     width: 100%;
     margin-top: 1rem;
-    background-color: aliceblue;
+    // background-color: aliceblue;
 
     .herotext{
         margin-left: 1.5rem;
         margin-right: 1.5rem;
-        background-color: wheat;
+        // background-color: wheat;
         img{
             width: 100%;
             object-fit: cover;
