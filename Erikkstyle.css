@@ -1,0 +1,205 @@
+main .sec2 {
+  margin-top: 1rem;
+  background-color: pink;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main .sec2 .image-2 {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .sec2 .image-2 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .sec2 .sec-2-content {
+  display: flex;
+  gap: 1.6rem;
+}
+main .sec2 .sec-2-content p {
+  writing-mode: vertical-lr;
+}
+main .sec2 .sec-2-content .text h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 2.8rem;
+  margin-bottom: 1rem;
+}
+main .sec2 .sec-2-content .text p {
+  writing-mode: initial;
+  font-size: large;
+  opacity: 0.75;
+  letter-spacing: 0.2rem;
+  line-height: 1.8rem;
+}
+
+@media (min-width: 900px) {
+  main .sec2 {
+    gap: 4rem;
+    flex-direction: row;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  main .sec2 .image-2 {
+    width: 32%;
+  }
+  main .sec2 .sec-2-content {
+    width: 68%;
+    flex-direction: row-reverse;
+  }
+  main .sec2 .sec-2-content p {
+    margin-top: 3rem;
+  }
+  main .sec2 .sec-2-content .text {
+    height: 100%;
+  }
+  main .sec2 .sec-2-content .text h1 {
+    font-size: 6rem;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+    line-height: 5.5rem;
+  }
+  main .sec2 .sec-2-content .text p {
+    width: 70%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto";
+}
+
+header {
+  width: 100%;
+  height: 4rem;
+  background-color: aqua;
+}
+
+main {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: aliceblue;
+}
+main .herotext {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  background-color: wheat;
+}
+main .herotext img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 0.8rem;
+}
+main .herotext .text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+main .herotext .text p {
+  font-size: small;
+}
+main .home-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .home-hero .image {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .home-hero .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .home-hero .content {
+  display: flex;
+  flex-direction: column;
+}
+main .home-hero .content .content-text h3 {
+  font-weight: 400;
+  font-size: 2.6rem;
+  width: 90%;
+  margin-bottom: 1rem;
+  line-height: 2.4rem;
+}
+main .home-hero .content .content-text p {
+  letter-spacing: 2px;
+  font-size: large;
+  width: 95%;
+  line-height: 1.6rem;
+  margin-bottom: 2rem;
+}
+main .home-hero .content .work {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .home-hero .content .work .service {
+  display: flex;
+  justify-content: space-between;
+}
+main .home-hero .content .work .service p {
+  font-size: 2rem;
+  font-weight: 300;
+}
+main .home-hero .content .work .line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+@media (min-width: 900px) {
+  main .herotext {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  main .herotext .home-hero {
+    flex-direction: row-reverse;
+    margin-top: 4rem;
+  }
+  main .herotext .home-hero .image {
+    width: 80%;
+    aspect-ratio: 1/1;
+  }
+  main .herotext .home-hero .image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .herotext .home-hero .content {
+    width: 88%;
+    margin-top: 4rem;
+    gap: 3rem;
+  }
+  main .herotext .home-hero .content .content-text h3 {
+    font-size: 5.2rem;
+    font-weight: 300;
+    line-height: 4.7rem;
+    width: 90%;
+  }
+  main .herotext .home-hero .content .content-text p {
+    width: 70%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    word-spacing: 0.3rem;
+  }
+  main .herotext .home-hero .content .work {
+    width: 90%;
+  }
+}
