@@ -15,6 +15,18 @@ body {
     height: 100%;
     font-family: "Roboto";
 }
+.cursor{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: fixed;
+    z-index: 99;
+    transition: all ease 0.2s;
+}
+.cursor{
+    pointer-events: none;
+}
 
 header {
     width: 100%;
