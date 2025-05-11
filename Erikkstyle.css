@@ -142,6 +142,193 @@ main .sec2 .sec-2-content .text p {
     width: 50%;
   }
 }
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 4rem;
+  margin-top: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.sec4 .work {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.sec4 .work .selectionwork {
+  width: 100%;
+}
+.sec4 .work .selectionwork img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sec4 .work .bigbox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.sec4 .work .bigbox .upperbox {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.sec4 .work .bigbox .upperbox .img1 {
+  width: 33%;
+}
+.sec4 .work .bigbox .upperbox .img2 {
+  width: 33%;
+}
+.sec4 .work .bigbox .upperbox .Azure {
+  width: 33%;
+}
+.sec4 .work .bigbox .upperbox .Azure .content {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15rem;
+}
+.sec4 .work .bigbox .upperbox .Azure .content .c1 h1 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+.sec4 .work .bigbox .upperbox .Azure .content .c1 p {
+  font-size: large;
+  letter-spacing: 0.1rem;
+}
+.sec4 .work .bigbox .upperbox .Azure .content .c2 a {
+  font-size: large;
+}
+.sec4 .work .bigbox .lowerbox {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2rem;
+}
+.sec4 .work .bigbox .lowerbox .img1 {
+  width: 33%;
+}
+.sec4 .work .bigbox .lowerbox .img2 {
+  width: 33%;
+}
+.sec4 .work .bigbox .lowerbox .sage {
+  width: 33%;
+}
+.sec4 .work .bigbox .lowerbox .sage .content {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15rem;
+}
+.sec4 .work .bigbox .lowerbox .sage .content .c1 h1 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+.sec4 .work .bigbox .lowerbox .sage .content .c1 p {
+  font-size: large;
+  letter-spacing: 0.1rem;
+}
+.sec4 .work .bigbox .lowerbox .sage .content .c2 a {
+  font-size: large;
+}
+
+.img1 {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.img1 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.img2 {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.img2 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .line {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+  .sec4 .work {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    gap: 1.5rem;
+  }
+  .sec4 .work .bigbox {
+    gap: 3rem;
+  }
+  .sec4 .work .bigbox .upperbox {
+    flex-direction: column;
+  }
+  .sec4 .work .bigbox .upperbox .img1 {
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+  .sec4 .work .bigbox .upperbox .img1 img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .sec4 .work .bigbox .upperbox .img2 {
+    display: none;
+  }
+  .sec4 .work .bigbox .upperbox .Azure {
+    width: 100%;
+  }
+  .sec4 .work .bigbox .upperbox .Azure .content {
+    margin: 0;
+    gap: 2rem;
+  }
+  .sec4 .work .bigbox .upperbox .Azure .content .c1 h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+  .sec4 .work .bigbox .lowerbox {
+    flex-direction: column;
+  }
+  .sec4 .work .bigbox .lowerbox .img1 {
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+  .sec4 .work .bigbox .lowerbox .img1 img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .sec4 .work .bigbox .lowerbox .img2 {
+    display: none;
+  }
+  .sec4 .work .bigbox .lowerbox .sage {
+    width: 100%;
+  }
+  .sec4 .work .bigbox .lowerbox .sage .content {
+    margin: 0;
+    gap: 2rem;
+  }
+  .sec4 .work .bigbox .lowerbox .sage .content .c1 h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+}
 * {
   margin: 0;
   padding: 0;
