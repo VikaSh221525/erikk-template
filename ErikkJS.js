@@ -55,3 +55,29 @@ gsap.from("#clientimage",{
         // markers:true
     }
 })
+gsap.from("#letscreate",{
+    y: 50,        // start 100px below
+    opacity: 0,    // start fully transparent
+    duration: 2, // animation duration
+    ease: "power4.out", // smooth easing
+    delay: 0.2,     // slight delay after page load
+    scrollTrigger:{
+        trigger:"#letscreate",
+        scroller:"body",
+        start: "top 80%",
+        // markers:true
+    }
+})
+gsap.from("#team6",{
+    y: 50,        // start 100px below
+    opacity: 0,    // start fully transparent
+    duration: 2, // animation duration
+    ease: "power4.out", // smooth easing
+    delay: 0.2,     // slight delay after page load
+    scrollTrigger:{
+        trigger:"#team6",
+        scroller:"body",
+        start: "top 80%",
+        // markers:true
+    }
+})
