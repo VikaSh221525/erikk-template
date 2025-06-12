@@ -81,3 +81,12 @@ gsap.from("#team6",{
         // markers:true
     }
 })
+
+let navEl = document.querySelector(".nav");
+let hamburger = document.querySelector(".Hamburger");
+
+hamburger.addEventListener("click", ()=>{
+    navEl.classList.toggle("nav--open");
+    hamburger.classList.toggle("hamburger--open");
+    
+})
